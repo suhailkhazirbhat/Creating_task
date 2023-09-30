@@ -1,0 +1,46 @@
+#header{
+   
+    border-radius: 25px;
+}
+.inputp{
+    background-color: #272E4B;
+        color: white;
+        text-align: center;
+}
+h1{
+    background-color: #DE3F53;
+    color: aliceblue;
+    text-align: center;
+    margin: 0px;
+    border-radius: 14px 14px 0px 0px;
+}
+p{
+    background-color:#272E4B;
+    margin: 0px;
+    color:white;
+    padding: 2px 0px 0px 21px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+p:last-child {
+    border-radius: 0px 0px 14px 14px ;
+  }
+button{
+    background-color: green;
+}
+#inputvalue{
+   background-color: #3b497A;
+   width: 100%;
+   padding: 2px 0px 0px 21px;
+  
+}
+.showTask{
+    background-color: rgb(3, 3, 37);
+    color:white
+}
+input{
+    background-color:#272E4B;
+    /* margin: 0px; */
+    color:white;
+}

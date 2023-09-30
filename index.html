@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<link rel="stylesheet" href="./style.css">
+<script src="./index.js"></script>
+
+<body onload="show()">  
+    <!-- <form onload="show()"> -->
+    <section id="header"> <h1> TO DO LIST</h1>
+     
+    <div style="display: flex;">
+        
+      <input type="text" id="inputvalue" placeholder="Enter task"> <button onclick="addTask(event)"  style="background-color: #1DD2AF;
+      color: white;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 900;
+      width: 10%;border: 1px solid #1DD2Af;">+</button>
+    
+    </div>
+
+    <div id="showTask"></div>
+<!-- <button onclick="show()">show</button> -->
+
+    </section>
+<!-- </form> -->
+
+    
+</body>
+</html>
